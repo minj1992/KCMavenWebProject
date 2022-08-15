@@ -5,7 +5,7 @@
   <groupId>com.kctechnologies</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
   <name>Maven Web Project</name>
   <description>Maven Web Project for Java</description>
   <properties>
@@ -78,14 +78,14 @@
   </dependencies>
    <distributionManagement>
         <repository>
-   <id>releases</id>
-    <name>releases</name>
-          <url>http://34.170.246.217:8081/repository/minj-release/</url>
+          <id>nexus</id>
+          <name>KC Tech Releases Nexus Repository</name>
+          <url>http://35.174.185.7:8081/repository/kctech-release/</url>
         </repository>
         <snapshotRepository>
-    <id>snapshots</id>
-    <name>snapshots</name>
-           <url>http://34.170.246.217:8081/repository/minj-snapshot/</url>
+          <id>nexus</id>
+          <name>KC Tech Snapshot Nexus Repository </name>
+           <url>http://35.174.185.7:8081/repository/kctech-snapshot/</url>
         </snapshotRepository>
    </distributionManagement>
 	
