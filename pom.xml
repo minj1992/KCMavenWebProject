@@ -78,13 +78,13 @@
   </dependencies>
    <distributionManagement>
         <repository>
-          <id>release</id>
-          <name>KC Tech Releases Nexus Repository</name>
+   <id>releases</id>
+    <name>releases</name>
           <url>http://34.170.246.217:8081/repository/minj-release/</url>
         </repository>
         <snapshotRepository>
-          <id>snapshot</id>
-          <name>KC Tech Snapshot Nexus Repository </name>
+    <id>snapshots</id>
+    <name>snapshots</name>
            <url>http://34.170.246.217:8081/repository/minj-snapshot/</url>
         </snapshotRepository>
    </distributionManagement>
